@@ -1,0 +1,12 @@
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.deps.json
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.pdb
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfo.cs
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\refint\Ecommerce.Domain.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.pdb
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\ref\Ecommerce.Domain.dll
