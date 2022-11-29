@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecommerce.Domain
+namespace Ecommerce.Domain.Entities
 {
-    public class OrderDetail
+    [Table("Order")]
+    public class Order
     {
+        [Key]
         public int Id { get; set; }
-      
-        public double Total { get; set; }
-       
-        public double Discount { get; set; }
+        [Range(0, int.MaxValue)]
+        public int Quantity { get; set; }
 
         public DateTime CreatedDate { get; set; }
 

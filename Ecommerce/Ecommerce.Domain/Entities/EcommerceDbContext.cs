@@ -1,7 +1,6 @@
-﻿using Ecommerce.Domain;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace Ecommerce.API.EcommerceContext
+namespace Ecommerce.Domain.Entities
 {
     public class EcommerceDbContext : DbContext
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecommerce.Application.Category
+namespace Ecommerce.Infrastructure
 {
-    public class CategoryService
+    public class CustomerRepository
     {
     }
 }

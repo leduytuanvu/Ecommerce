@@ -86,3 +86,4 @@ C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\refin
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\Ecommerce.API.pdb
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\Ecommerce.API.genruntimeconfig.cache
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\ref\Ecommerce.API.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
