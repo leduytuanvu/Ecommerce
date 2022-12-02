@@ -85,7 +85,6 @@ C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\Ecomm
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\Ecommerce.API.genruntimeconfig.cache
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\obj\Debug\net6.0\ref\Ecommerce.API.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\AutoMapper.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\CoreApiResponse.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.dll

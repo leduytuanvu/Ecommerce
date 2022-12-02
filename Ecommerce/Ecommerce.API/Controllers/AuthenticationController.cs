@@ -26,9 +26,7 @@ namespace Ecommerce.API.Controllers
         public async Task<IActionResult> Register(RegisterRequest request)
         {
             var response = await _authenticationService.Register(request);
-            var demo = _mapper.Map<User>(response);
-
-            return CustomResult("Data loaded successfully", demo);
+            return CustomResult("Data loaded successfully", response);
         }
 
         //[Route("login")]
