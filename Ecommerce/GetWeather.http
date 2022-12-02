@@ -1,0 +1,1 @@
+GET https://localhost:44343/api/JWTToken?username=admin&password=admin

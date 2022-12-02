@@ -8,26 +8,33 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Domain.Entities
 {
-    [Table("Product")]
     public class Product
     {
-        [Key]
-        public int Id { get; set; }
-        [MaxLength(50)]
+        public Guid Id { get; set; } = Guid.NewGuid();
+
         public string Name { get; set; } = string.Empty;
-        [MaxLength(500)]
-        public string Description { get; set; } = string.Empty;
-        [Range(0, double.MaxValue)]
-        public double Price { get; set; }
-        [Range(0, int.MaxValue)]
-        public int Quantity { get; set; }
 
-        //public List<string> Images { get; set; } = new List<string>();
+        public string? Description { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public double Price { get; set; } = 0;
 
-        public DateTime UpdatedDate { get; set; }
+        public int Quantity { get; set; } = 1;
 
-        public DateTime DeletedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+
+        public DateTime? UpdatedDate { get; set; }
+
+        public DateTime? DeletedDate { get; set; }
+
+
+        public Guid CategoryId { get; set; }
+
+        public Guid SupplierId { get; set; }
+
+        public Category Category { get; set; } = new Category();
+
+        public Supplier Supplier { get; set; } = new Supplier();
+
+        public ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
     }
 }

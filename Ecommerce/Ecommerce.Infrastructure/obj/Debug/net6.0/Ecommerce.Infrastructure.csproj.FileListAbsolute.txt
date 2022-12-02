@@ -10,3 +10,10 @@ C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\obj\Debug\n
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\refint\Ecommerce.Infrastructure.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.pdb
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\ref\Ecommerce.Infrastructure.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Application.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Domain.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Application.pdb
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Domain.pdb
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.csproj.CopyComplete
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Contracts.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Contracts.pdb

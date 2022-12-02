@@ -1,0 +1,19 @@
+﻿
+<Project ToolsVersion="15.0" Sdk="Microsoft.Docker.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectVersion>2.1</ProjectVersion>
+    <DockerTargetOS>Windows</DockerTargetOS>
+    <ProjectGuid>de6ac68f-0fbb-4a8d-ad5a-cf83c72c8d5a</ProjectGuid>
+    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
+    <DockerServiceUrl>{Scheme}://{ServiceIPAddress}{ServicePort}/swagger</DockerServiceUrl>
+    <DockerServiceName>ecommerce.api</DockerServiceName>
+    <UserSecretsId>c3fc3337-8a63-4855-8918-84b36df3f3d6</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="docker-compose.override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose.yml" />
+    <None Include=".dockerignore" />
+  </ItemGroup>
+</Project>

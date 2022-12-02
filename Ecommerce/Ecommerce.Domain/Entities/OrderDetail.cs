@@ -8,18 +8,25 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Domain.Entities
 {
-    [Table("OrderDetail")]
     public class OrderDetail
     {
-        [Key]
-        public int Id { get; set; }
-        [Range(0, double.MaxValue)]
-        public double Total { get; set; }
-        [Range(0, 100)]
-        public double Discount { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
-        public DateTime CreatedDate { get; set; }
+        public double Total { get; set; } = 0;
 
-        public DateTime UpdatedDate { get; set; }
+        public double Discount { get; set; } = 0;
+
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+
+        public DateTime? UpdatedDate { get; set; }
+
+
+        public Guid OrderId { get; set; }
+
+        public Guid ProductId { get; set; }
+
+        public Order Order { get; set; } = new Order();
+
+        public Product Product { get; set; } = new Product();
     }
 }

@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Domain.Entities
 {
-    [Table("Payment")]
+
     public class Payment
     {
-        [Key]
-        public int Id { get; set; }
-        [MaxLength(50)]
+        public Guid Id { get; set; } = Guid.NewGuid();
+
         public string PaymentType { get; set; } = string.Empty;
 
-        public DateTime Expiry { get; set; }
+        public DateTime Expiry { get; set; } = DateTime.Now;
+
+
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
     }
 }

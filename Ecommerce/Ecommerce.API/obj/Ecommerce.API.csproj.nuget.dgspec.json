@@ -4,6 +4,76 @@
     "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj": {}
   },
   "projects": {
+    "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj",
+        "projectName": "Ecommerce.Contracts",
+        "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.API\\Ecommerce.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,11 +103,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj": {
+                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj"
+              },
               "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj": {
                 "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj"
-              },
-              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               },
               "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
                 "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj"
@@ -55,6 +125,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CoreApiResponse": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -76,6 +158,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -137,7 +231,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj": {
+                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj"
+              },
+              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -219,6 +320,14 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -269,7 +378,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+                "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -281,6 +394,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

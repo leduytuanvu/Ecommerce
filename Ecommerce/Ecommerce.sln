@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API", "Ecommerce.API\Ecommerce.API.csproj", "{57BD1D0A-56E0-46D4-8E9B-A5FC52DEC9DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.API", "Ecommerce.API\Ecommerce.API.csproj", "{57BD1D0A-56E0-46D4-8E9B-A5FC52DEC9DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Application", "Ecommerce.Application\Ecommerce.Application.csproj", "{0430284B-4BD3-4A3B-AAD7-4042A6C39492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application", "Ecommerce.Application\Ecommerce.Application.csproj", "{0430284B-4BD3-4A3B-AAD7-4042A6C39492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain", "Ecommerce.Domain\Ecommerce.Domain.csproj", "{271E8D6B-6CB5-4F02-8EB4-31B099936247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain", "Ecommerce.Domain\Ecommerce.Domain.csproj", "{271E8D6B-6CB5-4F02-8EB4-31B099936247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Infrastructure", "Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Infrastructure", "Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Contracts", "..\Ecommerce.Contracts\Ecommerce.Contracts.csproj", "{127E11FD-78A3-4288-905B-072BCB9929F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ecommerce.Request", "Ecommerce.Request", "{C3D1BD1E-7895-40C6-ACB6-2DB78FCA08A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{E937D5FB-29B1-429F-87AB-DF99DF8A8055}"
+	ProjectSection(SolutionItems) = preProject
+		Login.http = Login.http
+		Register.http = Register.http
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +43,16 @@ Global
 		{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127E11FD-78A3-4288-905B-072BCB9929F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127E11FD-78A3-4288-905B-072BCB9929F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127E11FD-78A3-4288-905B-072BCB9929F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127E11FD-78A3-4288-905B-072BCB9929F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E937D5FB-29B1-429F-87AB-DF99DF8A8055} = {C3D1BD1E-7895-40C6-ACB6-2DB78FCA08A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE89EBF0-07A6-4BAF-91AD-9305F5A6114C}

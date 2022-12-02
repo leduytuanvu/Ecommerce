@@ -8,22 +8,23 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Domain.Entities
 {
-    [Table("Supplier")]
     public class Supplier
     {
-        [Key]
-        public int Id { get; set; }
-        [MaxLength(50)]
+        public Guid Id { get; set; } = Guid.NewGuid();
+
         public string Name { get; set; } = string.Empty;
 
         public string Address1 { get; set; } = string.Empty;
 
-        public string Address2 { get; set; } = string.Empty;
-        [MaxLength(10)]
+        public string? Address2 { get; set; }
+
         public string Phone { get; set; } = string.Empty;
-        [MaxLength(50)]
+
         public string Email { get; set; } = string.Empty;
 
-        public string Avatar { get; set; } = string.Empty;
+        public string? Avatar { get; set; }
+
+
+        public ICollection<Product> Products { get; set; }
     }
 }

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ecommerce.Application",
+    "\\Ecommerce.Application\\Common",
+    "\\Ecommerce.Application\\Common\\Interfaces",
+    "\\Ecommerce.Application\\Common\\Interfaces\\Authentication",
+    "\\Ecommerce.Application\\Common\\Interfaces\\Services",
+    "\\Ecommerce.Application\\Common\\Interfaces\\Services\\Authentication",
+    "\\Ecommerce.Application\\Common\\Interfaces\\Services\\DateTimeProvider",
+    "\\Ecommerce.Domain",
+    "\\Ecommerce.Domain\\Entities"
+  ],
+  "SelectedNode": "\\Ecommerce.sln",
+  "PreviewInSolutionExplorer": false
+}
