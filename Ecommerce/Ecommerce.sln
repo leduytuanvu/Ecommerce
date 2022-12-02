@@ -13,14 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Infrastructure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Contracts", "..\Ecommerce.Contracts\Ecommerce.Contracts.csproj", "{127E11FD-78A3-4288-905B-072BCB9929F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ecommerce.Request", "Ecommerce.Request", "{C3D1BD1E-7895-40C6-ACB6-2DB78FCA08A7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{E937D5FB-29B1-429F-87AB-DF99DF8A8055}"
-	ProjectSection(SolutionItems) = preProject
-		Login.http = Login.http
-		Register.http = Register.http
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,9 +42,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E937D5FB-29B1-429F-87AB-DF99DF8A8055} = {C3D1BD1E-7895-40C6-ACB6-2DB78FCA08A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE89EBF0-07A6-4BAF-91AD-9305F5A6114C}
