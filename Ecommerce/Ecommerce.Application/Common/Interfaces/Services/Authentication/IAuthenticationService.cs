@@ -1,17 +1,13 @@
 ﻿using Ecommerce.Contracts.Authentication.Requests;
 using Ecommerce.Contracts.Authentication.Response;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ErrorOr;
 
-namespace Ecommerce.Application.Services.Authentication
+namespace Ecommerce.Application.Common.Interfaces.Services.Authentication
 {
     public interface IAuthenticationService
     {
-        //Task<LoginResponse> Login(string Username, string Password);
+        Task<ErrorOr<LoginResponse?>> Login(LoginRequest request);
 
-        Task<RegisterResponse?> Register(RegisterRequest request);
+        Task<ErrorOr<RegisterResponse?>> Register(RegisterRequest request);
     }
 }

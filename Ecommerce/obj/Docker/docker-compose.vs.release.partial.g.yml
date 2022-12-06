@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   ecommerce.api:
-    container_name: Ecommerce.API
+    container_name: Ecommerce.API_1
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

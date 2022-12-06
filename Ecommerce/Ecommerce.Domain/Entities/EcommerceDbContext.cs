@@ -19,6 +19,7 @@ namespace Ecommerce.Domain.Entities
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Shipper> Shippers { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Image> Images { get; set; }
 
         #endregion
 
@@ -91,6 +92,7 @@ namespace Ecommerce.Domain.Entities
                 e.HasKey(s => s.Id);
                 e.Property(s => s.CompanyName).IsRequired().HasColumnType("nvarchar(50)");
                 e.Property(s => s.Phone).IsRequired().HasColumnType("varchar(10)");
+                e.Property(c => c.Image).IsRequired().HasColumnType("varchar(max)");
             });
 
             modelBuilder.Entity<Supplier>(e =>
@@ -103,6 +105,16 @@ namespace Ecommerce.Domain.Entities
                 e.Property(s => s.Address2).HasColumnType("nvarchar(500)");
                 e.Property(s => s.Email).IsRequired().HasColumnType("varchar(50)");
                 e.Property(s => s.Avatar).HasColumnType("varchar(max)");
+            });
+
+            modelBuilder.Entity<Image>(e =>
+            {
+                e.ToTable("Image");
+                e.HasKey(i => i.Id);
+                e.Property(i => i.Url).IsRequired().HasColumnType("varchar(max)");
+                e.Property(i => i.Alt).HasColumnType("nvarchar(50)");
+                e.Property(i => i.Title).HasColumnType("nvarchar(50)");
+                e.Property(i => i.Description).HasColumnType("nvarchar(500)");
             });
         }
     }

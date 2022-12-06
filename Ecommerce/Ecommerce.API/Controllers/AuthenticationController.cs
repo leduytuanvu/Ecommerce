@@ -1,39 +1,43 @@
-﻿using Ecommerce.Application.Services.Authentication;
+﻿using Ecommerce.Application.Common.Interfaces.Services.Authentication;
 using Ecommerce.Contracts.Authentication.Requests;
+using Ecommerce.Contracts.Authentication.Response;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
-using CoreApiResponse;
-using MapsterMapper;
-using Ecommerce.Domain.Entities;
 
 namespace Ecommerce.API.Controllers
 {
-
-    [ApiController]
     [Route("auth")]
-    public class AuthenticationController : BaseController
+    public class AuthenticationController : ApiController
     {
         private readonly IAuthenticationService _authenticationService;
-        private readonly IMapper _mapper;
 
-        public AuthenticationController(IAuthenticationService authenticationService, IMapper mapper)
+        public AuthenticationController(IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
-            _mapper = mapper;
         }
 
         [Route("register")]
         [HttpPost]
         public async Task<IActionResult> Register(RegisterRequest request)
         {
-            var response = await _authenticationService.Register(request);
-            return CustomResult("Data loaded successfully", response);
+            ErrorOr<RegisterResponse?> result = await _authenticationService.Register(request);
+
+            return result.Match(
+                authResult => CustomResult("Get data successfully", data: authResult),
+                errors => CustomResultError(errors)
+            );
         }
 
-        //[Route("login")]
-        //[HttpPost]
-        //public async Task<IActionResult> Login(LoginRequest request)
-        //{
-        //    return Ok(_authenticationService.Login(request.Username, request.Password));
-        //}
+        [Route("login")]
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginRequest request)
+        {
+            ErrorOr<LoginResponse?> result = await _authenticationService.Login(request);
+
+            return result.Match(
+                authResult => CustomResult("Get data successfully", data: authResult),
+                errors => CustomResultError(errors)
+            );
+        }
     }
 }

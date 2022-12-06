@@ -1,5 +1,5 @@
 using Ecommerce.API;
-using Ecommerce.API.Middleware;
+using Ecommerce.API.Common.Middleware;
 using Ecommerce.Application;
 using Ecommerce.Domain.Entities;
 using Ecommerce.Infrastructure;
@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -79,6 +80,10 @@ builder.Services.AddDbContext<EcommerceDbContext>(
         b => b.MigrationsAssembly("Ecommerce.API")
     ), ServiceLifetime.Singleton
 );
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File("C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.API\\Logs\\log.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 var app = builder.Build();
 

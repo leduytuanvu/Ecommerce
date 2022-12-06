@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ecommerce.Domain.Entities
+﻿namespace Ecommerce.Domain.Entities
 {
     public class Supplier
     {
@@ -24,7 +16,9 @@ namespace Ecommerce.Domain.Entities
 
         public string? Avatar { get; set; }
 
+        public bool IsDeleted { get; set; } = false;
 
-        public ICollection<Product> Products { get; set; }
+
+        public ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

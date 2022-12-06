@@ -98,3 +98,16 @@ C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Micro
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Mapster.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Mapster.Core.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\FluentResults.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\ErrorOr.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\FluentValidation.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\Ecommerce.API\bin\Debug\net6.0\Serilog.Sinks.File.dll

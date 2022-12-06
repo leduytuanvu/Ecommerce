@@ -1,11 +1,12 @@
 ﻿using Ecommerce.Application.Common.Interfaces.Authentication;
-using Ecommerce.Application.Common.Interfaces.Services.DateTimeProvider;
-using Ecommerce.Infrastructure.Authentication;
-using Ecommerce.Infrastructure.Services;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
 using Ecommerce.Application.Common.Interfaces.Persistence;
+using Ecommerce.Application.Common.Interfaces.Services.DateTimeProvider;
+using Ecommerce.Application.Persistence;
+using Ecommerce.Infrastructure.Authentication;
 using Ecommerce.Infrastructure.Persistence;
+using Ecommerce.Infrastructure.Services;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Ecommerce.Infrastructure
 {
@@ -17,7 +18,14 @@ namespace Ecommerce.Infrastructure
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             services.AddSingleton<IUserRepository, UserRepository>();
-            services.AddSingleton<IAuthenticationRepository, AuthenticationRepository>();
+            services.AddSingleton<ICategoryRepository, CategoryRepository>();
+            services.AddSingleton<ISupplierRepository, SupplierRepository>();
+            services.AddSingleton<IShipperRepository, ShipperRepository>();
+            services.AddSingleton<IProductRepository, ProductRepository>();
+            services.AddSingleton<IPaymentRepository, PaymentRepository>();
+            services.AddSingleton<IOrderDetailRepository, OrderDetailRepository>();
+            services.AddSingleton<IOrderRepository, OrderRepository>();
+            services.AddSingleton<IImageRepository, ImageRepository>();
             return services;
         }
     }

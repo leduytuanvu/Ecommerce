@@ -1,13 +1,12 @@
-﻿
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" Sdk="Microsoft.Docker.Sdk">
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Windows</DockerTargetOS>
-    <ProjectGuid>de6ac68f-0fbb-4a8d-ad5a-cf83c72c8d5a</ProjectGuid>
+    <ProjectGuid>62083a22-8ac8-4761-95d4-0d2ddeec98f0</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://{ServiceIPAddress}{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>ecommerce.api</DockerServiceName>
-    <UserSecretsId>c3fc3337-8a63-4855-8918-84b36df3f3d6</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -34,8 +34,6 @@ C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Ecommerce.Domain.pdb
 C:\leduytuanvu\development\dotnet\Ecommerce\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\leduytuanvu\development\dotnet\Ecommerce\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\leduytuanvu\development\dotnet\Ecommerce\obj\Debug\docker-compose.dcproj.CopyComplete
-C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\AutoMapper.dll
-C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Ecommerce.Contracts.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Ecommerce.Contracts.pdb
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Ecommerce.Application.dll
@@ -48,3 +46,12 @@ C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Microsoft.Extensions.Optio
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\CoreApiResponse.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Mapster.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Mapster.DependencyInjection.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Mapster.Core.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\ErrorOr.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\FluentValidation.AspNetCore.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\FluentValidation.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Serilog.dll
+C:\leduytuanvu\development\dotnet\Ecommerce\bin\Debug\Serilog.Sinks.File.dll

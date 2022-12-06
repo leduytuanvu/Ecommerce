@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 namespace Ecommerce.Contracts.Error
 {
@@ -12,6 +7,8 @@ namespace Ecommerce.Contracts.Error
         public string? StatusCode { get; set; }
 
         public string? Message { get; set; }
+
+        public dynamic? Data { get; set; }
 
         public override string ToString()
         {

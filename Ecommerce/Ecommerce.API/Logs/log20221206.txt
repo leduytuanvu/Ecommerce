@@ -1,0 +1,5 @@
+2022-12-06 11:12:21.057 +07:00 [INF] Error: Error { Code = CREATE_CATEGORY_FAILED, Description = Create category failed, Type = Conflict, NumericType = 3 }
+2022-12-06 11:13:36.822 +07:00 [INF] Error: Error { Code = CREATE_CATEGORY_FAILED, Description = Create category failed, Type = Conflict, NumericType = 3 }
+2022-12-06 11:14:13.264 +07:00 [INF] Error: Error { Code = CREATE_CATEGORY_FAILED, Description = Create category failed, Type = Conflict, NumericType = 3 }
+2022-12-06 11:37:14.248 +07:00 [INF] Error: Error { Code = USER_NAME_IS_EMPTY, Description = Username must have more than 5 characters, Type = Conflict, NumericType = 3 }
+2022-12-06 11:37:28.290 +07:00 [INF] Error: Error { Code = DUPLICATE_USERNAME, Description = Username already exists, Type = Conflict, NumericType = 3 }

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ecommerce.Domain.Entities
+﻿namespace Ecommerce.Domain.Entities
 {
     public class Product
     {
@@ -26,6 +18,7 @@ namespace Ecommerce.Domain.Entities
 
         public DateTime? DeletedDate { get; set; }
 
+        public bool IsDeleted { get; set; }
 
         public Guid CategoryId { get; set; }
 
@@ -34,6 +27,8 @@ namespace Ecommerce.Domain.Entities
         public Category Category { get; set; } = new Category();
 
         public Supplier Supplier { get; set; } = new Supplier();
+
+        public ICollection<Image> Images { get; set; } = new List<Image>();
 
         public ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
     }
