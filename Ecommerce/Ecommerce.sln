@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Domain", "Ecommer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Infrastructure", "Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{71ADACE4-8213-4C56-9544-0D2CB8FD7AA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Contract", "Ecommerce.Contracts\Ecommerce.Contract.csproj", "{635F3030-4EFB-46AC-AB6E-42D23E3B5FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Contracts", "Ecommerce.Contracts\Ecommerce.Contracts.csproj", "{635F3030-4EFB-46AC-AB6E-42D23E3B5FCB}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{62083A22-8AC8-4761-95D4-0D2DDEEC98F0}"
 EndProject

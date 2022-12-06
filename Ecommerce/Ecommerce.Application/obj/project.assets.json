@@ -1490,17 +1490,17 @@
           }
         }
       },
-      "Ecommerce.Contract/1.0.0": {
+      "Ecommerce.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Ecommerce.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Ecommerce.Contract.dll": {}
+          "bin/placeholder/Ecommerce.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Ecommerce.Contract.dll": {}
+          "bin/placeholder/Ecommerce.Contracts.dll": {}
         }
       },
       "Ecommerce.Domain/1.0.0": {
@@ -4096,10 +4096,10 @@
         "version.txt"
       ]
     },
-    "Ecommerce.Contract/1.0.0": {
+    "Ecommerce.Contracts/1.0.0": {
       "type": "project",
-      "path": "../Ecommerce.Contracts/Ecommerce.Contract.csproj",
-      "msbuildProject": "../Ecommerce.Contracts/Ecommerce.Contract.csproj"
+      "path": "../Ecommerce.Contracts/Ecommerce.Contracts.csproj",
+      "msbuildProject": "../Ecommerce.Contracts/Ecommerce.Contracts.csproj"
     },
     "Ecommerce.Domain/1.0.0": {
       "type": "project",
@@ -4109,7 +4109,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Ecommerce.Contract >= 1.0.0",
+      "Ecommerce.Contracts >= 1.0.0",
       "Ecommerce.Domain >= 1.0.0",
       "FluentResults >= 3.15.1",
       "FluentValidation.AspNetCore >= 11.2.2",
@@ -4149,8 +4149,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contract.csproj": {
-              "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contract.csproj"
+            "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj": {
+              "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj"
             },
             "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
               "projectPath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PGgiSYdIR77M5JcfBeTNDke01rkh201zTmK6ew9dlV0MtD47ciCjMgERXWj6o7syTknAMfMe8D16C4tFqixQhA==",
+  "dgSpecHash": "yLI3TuyzNl0/5LANLFjh3OKiyv2xBby0wo/sOIFSterOiUDm348Boq9G/CkqSnZGeJZSRUsWae8AJ0BDPPjI1Q==",
   "success": true,
-  "projectFilePath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contract.csproj",
+  "projectFilePath": "C:\\leduytuanvu\\development\\dotnet\\Ecommerce\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
